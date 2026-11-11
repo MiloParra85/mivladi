@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d24">
+  <meta name="description" content="Un pequeño universo creado con amor para ti.">
+  <title>Un universo para ti ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="nebula nebula-one"></div>
+    <div class="nebula nebula-two"></div>
+    <div id="stars"></div>
+    <div class="moon"></div>
+  </div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="eyebrow"><span class="sparkle">✦</span> un pequeño universo hecho para ti <span class="sparkle">✦</span></div>
+      <h1>Para ti,<br><em>mi Vladi.</em></h1>
+      <p class="hero-copy">Hay distancias que separan lugares,<br>pero no hay kilómetros que puedan medir lo que siento por ti.</p>
+      <button class="primary-button" id="openLetter" type="button">
+        <span>Descubre tu sorpresa</span><span class="button-star">✧</span>
+      </button>
+      <div class="scroll-hint">DESLIZA DESPACITO <span>↓</span></div>
+    </section>
+
+    <section class="letter-section section" id="carta">
+      <div class="section-kicker">01 — UN MENSAJITO PARA TI</div>
+      <div class="letter-card">
+        <div class="letter-top"><span>✦ PARA MI PERSONA FAVORITA ✦</span><span class="letter-heart">♡</span></div>
+        <div class="letter-content">
+          <p class="salutation">Mi amoy, mi bb…</p>
+          <p>Ya pasó tu cumpleaños, pero no quería que terminara el día sin dejarte algo que pudieras guardar y volver a leer cuando quisieras. Porque aunque la fecha haya quedado atrás, las ganas de recordarte lo especial que eres para mí no se terminan a medianoche.</p>
+          <p>Me habría encantado estar cerquita de ti, abrazarte muy fuerte y celebrar tu vida como te mereces. Por ahora nos toca querernos desde nuestros rinconcitos del mundo, pero quiero que sepas que la distancia no hace más pequeño lo que siento. Si acaso, me recuerda cuánto deseo ese día en el que ya no tengamos que imaginar los abrazos, porque podremos dárnoslos de verdad.</p>
+          <p>Deseo que este nuevo año te traiga tranquilidad, motivos para reír, sueños que se cumplan y muchísimas cosas bonitas. Ojalá nunca olvides lo valiosa que eres, lo mucho que mereces y lo bonito que es que existas.</p>
+          <p>Gracias por ser parte de mi vida, por dejarme conocerte y por compartir conmigo esta historia. Me ilusiona pensar en todo lo que todavía nos falta vivir: los lugares por descubrir, las pequeñas aventuras, los días sencillos y, sobre todo, ese primer abrazo que tendrá que compensar tantos que tenemos pendientes.</p>
+          <p class="closing">Feliz nueva vuelta al sol, mi bb.<br>Te quiero muchísimo. ❤️</p>
+          <div class="signature">Con todo mi cariño, siempre.</div>
+        </div>
+        <div class="letter-bottom">HECHO CON AMOR, AUNQUE SEA A MUCHOS KILÓMETROS DE DISTANCIA <span>✧</span></div>
+      </div>
+    </section>
+
+    <section class="section wishes" id="deseos">
+      <div class="section-kicker">02 — COSITAS QUE DESEO PARA TI</div>
+      <h2>Que la vida te abrace<br><em>tan bonito como mereces.</em></h2>
+      <div class="wish-grid">
+        <article class="wish-card"><div class="wish-icon">☾</div><h3>Calma</h3><p>Que incluso en los días difíciles encuentres paz, fuerza y un motivo para seguir sonriendo.</p></article>
+        <article class="wish-card"><div class="wish-icon">✧</div><h3>Sueños</h3><p>Que cada ilusión que guardas en tu corazón encuentre su camino para hacerse realidad.</p></article>
+        <article class="wish-card"><div class="wish-icon">♡</div><h3>Amor</h3><p>Que nunca te falte cariño sincero, del bonito, del que te recuerda lo importante que eres.</p></article>
+      </div>
+    </section>
+
+    <section class="section distance" id="distancia">
+      <div class="section-kicker">03 — ENTRE TU MUNDO Y EL MÍO</div>
+      <div class="orbit" aria-hidden="true"><span class="orbit-star">✦</span><span class="orbit-heart">♥</span><span class="orbit-dot"></span></div>
+      <h2>Los kilómetros no saben<br><em>cuánto te quiero.</em></h2>
+      <p class="distance-copy">Hay abrazos que todavía no hemos podido darnos y momentos que por ahora imaginamos. Pero también hay una historia que seguimos escribiendo, un cariño que cruza cualquier mapa y una ilusión enorme por todo lo que un día podremos vivir juntitos.</p>
+      <p class="small-promise">Hasta que llegue ese día, aquí tienes un pedacito de mi universo. Siempre habrá un lugar para ti en él.</p>
+    </section>
+
+    <section class="final-section section" id="final">
+      <div class="final-star">✦</div>
+      <p class="final-overline">Y POR SI NO TE LO HE DICHO SUFICIENTE…</p>
+      <h2>Me alegra muchísimo<br>que existas, <em>mi Vladi.</em></h2>
+      <p class="final-copy">Que este sea un año precioso para ti.<br>Y que nos regale, algún día, el abrazo que tanto esperamos.</p>
+      <button class="surprise-button" id="wishButton" type="button">Pide un deseo conmigo <span>♡</span></button>
+      <div class="wish-reveal" id="wishReveal" aria-live="polite">Mi deseo es que la vida nos regale muchos momentos juntitos. ❤️</div>
+      <div class="signature-end">Con amor, para mi amoy. ✧</div>
+    </section>
+  </main>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Activar música ambiental" title="Música ambiental">
+    <span class="music-icon">♫</span><span class="music-label">Música</span>
+  </button>
+  <div class="toast" id="toast" role="status">Un deseo bonito acaba de viajar hasta ti ✨</div>
+  <script src="script.js"></script>
+</body>
+</html>
